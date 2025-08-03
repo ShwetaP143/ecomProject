@@ -1,7 +1,46 @@
+# Build output
 /target
+/build
 *.class
+*.jar
+*.log
+
+# IDE folders
 .idea/
 *.iml
-*.log
-*.jar
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Mac system file
 .DS_Store
+
+# Optional: allow target/build folders in source dirs
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Misc
+HELP.md
