@@ -5,6 +5,9 @@
 *.jar
 *.log
 
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
 # IDE folders
 .idea/
 *.iml
@@ -29,9 +32,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-# Maven Wrapper
-.mvn/wrapper/maven-wrapper.jar
 
 # Mac system file
 .DS_Store
